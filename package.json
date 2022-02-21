@@ -1,7 +1,7 @@
 {
-  "name": "zad-competition-theme",
+  "name": "zad-islamqa-competitions-google-forms-theme",
   "version": "0.1.0",
-  "description": "WordPress theme built to show ZAD IslamQA Competition with Google Forms static and dynamic pages.",
+  "description": "WordPress theme built to show ZAD IslamQA Competitions with Google Forms static and dynamic pages.",
   "main": "src/index.js",
   "scripts": {
     "build": "wp-scripts build",

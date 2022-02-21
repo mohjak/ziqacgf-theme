@@ -1,0 +1,36 @@
+{
+  "name": "zad-competition-theme",
+  "version": "0.1.0",
+  "description": "WordPress theme built to show ZAD IslamQA Competition with Google Forms static and dynamic pages.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohjak/zad-competition-theme.git"
+  },
+  "keywords": [
+    "mobile-first",
+    "responsive",
+    "custom-menu",
+    "featured-images",
+    "rtl-language-support",
+    "translation-ready"
+  ],
+  "author": "Mohammad Jaqmaqji <mohjak@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mohjak/zad-competition-theme/issues"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^19.2.4"
+  },
+  "homepage": "https://github.com/mohjak/zad-competition-theme#readme",
+  "dependencies": {
+    "bulma": "^0.9.3"
+  }
+}

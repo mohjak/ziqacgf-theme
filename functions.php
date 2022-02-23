@@ -8,6 +8,8 @@
  * @package ziqacgf-theme
  */
 
+require_once('classes/bulma-navwalker.php');
+
 if (!defined('ZIQACGF_THEME_VERSION')) {
     // Replace the version number of the theme on each release.
     define('ZIQACGF_THEME_VERSION', '0.1.0');
@@ -59,8 +61,8 @@ if (!function_exists('ziqacgf_theme_setup')) :
         add_theme_support(
             'custom-logo',
             array(
-                'height'      => 382,
-                'width'       => 308,
+                'height'      => 171,
+                'width'       => 47,
                 'flex-width'  => true,
                 'flex-height' => true,
             )

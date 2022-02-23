@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZAD IslamQA Competitions Google Forms\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-21 11:21+0000\n"
+"PO-Revision-Date: 2022-02-22 08:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.8; wp-5.9\n"
+"X-Domain: ziqacgf"
+
+#: header.php:13
+#, php-format
+msgid "All rights reserved to website %1$s %2$s"
+msgstr ""
+
+#: footer.php:26
+#, php-format
+msgid "Copyright &copy; All rights reserved to website %1$s %2$s."
+msgstr "Copyright &copy; All rights reserved to website %1$s %2$s."
+
+#: header.php:91
+msgid "Fasting Aya"
+msgstr ""
+
+#: front-page.php:15
+msgid "Go to competition"
+msgstr ""
+
+#: functions.php:50
+msgid "Header Nav Menu Location"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://github.com/mohjak"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/mohjak/zad-competition-theme"
+msgstr ""
+
+#: footer.php:26
+msgid "IslamQA"
+msgstr ""
+
+#. Author of the theme
+msgid "Mohammad Jaqmaqji "
+msgstr ""
+
+#: 404.php:16
+msgid "Page Not Found"
+msgstr ""
+
+#: footer.php:29
+#, php-format
+msgid "Powered By %1$s"
+msgstr ""
+
+#: header.php:93
+msgid "Ramadan Competition"
+msgstr ""
+
+#: header.php:96
+msgid "Ramadan Logo"
+msgstr ""
+
+#: header.php:100
+msgid "Terms and Conditions"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"The ZAD IslamQA competition using google forms theme created for competitors "
+"to show different competition pages."
+msgstr ""
+
+#: footer.php:29
+msgid "ZAD Group"
+msgstr ""
+
+#. Name of the theme
+msgid "ZAD IslamQA Competitions Google Forms"
+msgstr ""

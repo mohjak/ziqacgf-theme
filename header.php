@@ -74,19 +74,38 @@ $copyright = sprintf(esc_html__('All rights reserved to website %1$s %2$s', 'ziq
     <header class="header" style="background: url(<?php echo get_theme_file_uri('assets/images/bg.svg') ?>)">
         <section class="section">
             <div class="container">
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <div class="site-header__logo">
+                            <div class="site-header__logo__inner">
+                                <a class="" href="<?php echo site_url() ?>">
+                                    <img width="171" height="47" src="<?php echo get_theme_file_uri('assets/images/logo_islamQA.svg') ?>" alt="IslamQA Competitions">
+                                </a>
+                            </div>
+                        </div>
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="header-nav-menu">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
 
-                <!-- <div class="has-text-centered m-3">
-                    <a href="/" class="has-text-white">العربية</a>
-                    <a href="/index-en.html" class="has-text-white">English</a>
-                </div> -->
-
-                <h1 class="title has-text-white has-text-centered">
-                    <?php bloginfo('title') ?>
-                </h1>
-
-                <h2 class="subtitle has-text-white has-text-centered">
-                    <?php the_title() ?>
-                </h2>
+                    <div id="header-nav-menu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <?php wp_nav_menu(array(
+                                'theme-location' => 'the-header-nav-location', //change it according to your register_nav_menus() function
+                                'depth'          => 2,
+                                'menu'           => 'Main menu - EN',
+                                'container'      => '',
+                                'menu_class'     => '',
+                                'items_wrap'     => '%3$s',
+                                'walker'         => new Bulma_NavWalker(),
+                                'fallback_cb'    => 'Bulma_NavWalker::fallback'
+                            ));
+                            ?>
+                        </div>
+                    </div>
+                </nav>
 
                 <img src="<?php echo get_theme_file_uri('assets/images/aya2.bc77404d.png') ?>" alt="<?php _e('Fasting Aya', 'ziqacgf') ?>">
 

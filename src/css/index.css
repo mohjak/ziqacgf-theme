@@ -2,11 +2,21 @@
 @import "../../assets/fonts/helvetica.css";
 
 body {
+  font-family: "Helvetica", "Arial", sans-serif;
   min-height: 100vh;
 }
 
+.navbar {
+  background: transparent;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+  background-color: transparent;
+  color: #DFF0CB;
+}
+
 .container {
-  max-width: 800px;
+  max-width: 960px;
 }
 
 .footer {
@@ -15,4 +25,10 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #1F8A93;
+}
+
+@media screen and (min-width: 1408px) {
+  .container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: 960px;
+  }
 }

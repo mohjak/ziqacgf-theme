@@ -62,6 +62,24 @@ a:hover {
   border-radius: 4px;
 }
 
+.winner-image {
+  padding-bottom: 0.5rem;
+}
+
+.winner-image::before {
+  top: auto;
+  right: 0;
+  left: 0;
+  width: 70px;
+  bottom: -8px;
+  margin: auto;
+  border: 2px solid #BCDE98;
+  height: 2px;
+  content: " ";
+  position: absolute;
+  border-radius: 4px;
+}
+
 .competition-awards-section {
   background-color: rgba(188,222,152,0.13);
 }

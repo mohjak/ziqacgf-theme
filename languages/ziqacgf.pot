@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZAD IslamQA Competitions Google Forms\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-21 11:21+0000\n"
+"POT-Creation-Date: 2022-02-24 08:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,9 +16,31 @@ msgstr ""
 "X-Loco-Version: 2.5.8; wp-5.9\n"
 "X-Domain: ziqacgf"
 
-#: header.php:13
+#: front-page.php:196
+msgid "1000 SAR"
+msgstr ""
+
+#: header.php:13 terms.php:11
 #, php-format
 msgid "All rights reserved to website %1$s %2$s"
+msgstr ""
+
+#: front-page.php:213
+msgid "and ends on:"
+msgstr ""
+
+#: front-page.php:172
+msgid ""
+"By participating in the competition, you may win its daily prize, and you "
+"will also win the new Islamic knowledge that you will acquire"
+msgstr ""
+
+#: front-page.php:183
+msgid "Competition Awards"
+msgstr ""
+
+#: front-page.php:213
+msgid "Competition quiz starts on:"
 msgstr ""
 
 #: footer.php:26
@@ -26,16 +48,20 @@ msgstr ""
 msgid "Copyright &copy; All rights reserved to website %1$s %2$s."
 msgstr ""
 
-#: header.php:91
+#: header.php:116
 msgid "Fasting Aya"
 msgstr ""
 
-#: front-page.php:15
-msgid "Go to competition"
+#: front-page.php:216
+msgid "Go to the quiz"
 msgstr ""
 
-#: functions.php:50
+#: functions.php:52
 msgid "Header Nav Menu Location"
+msgstr ""
+
+#: front-page.php:99
+msgid "How the competition works"
 msgstr ""
 
 #. Author URI of the theme
@@ -63,22 +89,59 @@ msgstr ""
 msgid "Powered By %1$s"
 msgstr ""
 
-#: header.php:93
+#: header.php:120
 msgid "Ramadan Competition"
 msgstr ""
 
-#: header.php:96
+#: front-page.php:81
+msgid "Ramadan competition for the IslamQA website for the year 1443 AH"
+msgstr ""
+
+#: header.php:125 terms.php:115
 msgid "Ramadan Logo"
 msgstr ""
 
-#: header.php:100
+#: front-page.php:126
+msgid ""
+"Register now and you will receive the activation link on your email, "
+"activate the competition by clicking on the link in your mail, then log in "
+"to the competition and start solving the questions."
+msgstr ""
+
+#: front-page.php:125
+msgid "Register your details to start the contest"
+msgstr ""
+
+#: front-page.php:149
+msgid ""
+"Search for the answer to the required questions on the Islam Q&A website "
+"islamqa.info and copy the reference number in the question"
+msgstr ""
+
+#. Name of the template
+msgid "Terms"
+msgstr ""
+
+#: terms.php:121
+msgid "Terms And Conditions"
+msgstr ""
+
+#: header.php:130
 msgid "Terms and Conditions"
 msgstr ""
 
 #. Description of the theme
 msgid ""
-"The ZAD IslamQA competition using google forms theme created for competitors "
-"to show different competition pages."
+"The ZAD IslamQA competitions based on google forms theme created for "
+"competitors to show different competition pages."
+msgstr ""
+
+#: front-page.php:148
+msgid "What is the reference number?"
+msgstr ""
+
+#: front-page.php:171
+msgid "Win with us"
 msgstr ""
 
 #: footer.php:29

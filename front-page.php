@@ -202,13 +202,19 @@ $the_query = new WP_Query($args);
     </div>
 
     <section class="section">
-        <div class="container is-flex is-justify-content-center">
+        <div class="container">
             <?php if ($the_query->have_posts()) { ?>
                 <?php while ($the_query->have_posts()) {
                     $the_query->the_post();
                     $formURL = get_field('form_url', get_the_ID());
+
                 ?>
-                    <a href="<?php echo $formURL ? $formURL : '#' ?>" class="button is-primary is-large" target="_blank"><?php _e('Go to the quiz', 'ziqacgf') ?></a>
+                    <p class="has-text-centered mb-4">
+                        <span class="is-size-5"><?php _e('Competition quiz starts on:', 'ziqacgf') ?> </span> <strong class=" is-size-5 has-text-primary"><?php the_field('form_open_date') ?></strong> <span class="is-size-5"><?php _e('and ends on:', 'ziqacgf') ?> <strong class="is-size-5 has-text-primary"><?php the_field('form_close_date') ?></strong></span>
+                    </p>
+                    <p class=" has-text-centered">
+                        <a href="<?php echo $formURL ? $formURL : '#' ?>" class="button is-primary is-large" target="_blank"><?php _e('Go to the quiz', 'ziqacgf') ?></a>
+                    </p>
                 <?php } ?>
             <?php } ?>
         </div>

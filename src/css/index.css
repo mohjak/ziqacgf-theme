@@ -2,11 +2,91 @@
 @import "../../assets/fonts/helvetica.css";
 
 body {
+  font-family: "Helvetica", "Arial", sans-serif;
   min-height: 100vh;
 }
 
+a:hover {
+  color: #FFFFFF;
+}
+
+.header {
+  background-color: #1F8A93 !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.navbar-item, .navbar-link {
+  color: #F1f1f1;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+  background-color: transparent;
+  color: #DFF0CB;
+}
+
 .container {
-  max-width: 800px;
+  max-width: 960px;
+}
+
+.hero-terms-link {
+  text-align: center;
+  color: #1F8A93;
+  width: 300px;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.42);
+}
+
+.front-page-card {
+  background-color: #FFFEF6;
+}
+
+.competition-title::before {
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 70px;
+  bottom: -70px;
+  margin: auto;
+  border: 2px solid #BCDE98;
+  height: 2px;
+  content: " ";
+  position: absolute;
+  border-radius: 4px;
+}
+
+.winner-image {
+  padding-bottom: 0.5rem;
+}
+
+.winner-image::before {
+  top: auto;
+  right: 0;
+  left: 0;
+  width: 70px;
+  bottom: -8px;
+  margin: auto;
+  border: 2px solid #BCDE98;
+  height: 2px;
+  content: " ";
+  position: absolute;
+  border-radius: 4px;
+}
+
+.competition-awards-section {
+  background-color: rgba(188,222,152,0.13);
+}
+
+.competition-award-payment-section {
+  width: 250px;
+  margin: 0 auto;
 }
 
 .footer {
@@ -15,4 +95,10 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #1F8A93;
+}
+
+@media screen and (min-width: 1408px) {
+  .container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: 960px;
+  }
 }

@@ -1,12 +1,10 @@
 <?php
 
 /**
- * The header for our theme
- *
- * This is the template that displays all of the <header> section and everything up until </header>
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
+ * The terms page template
+ * 
+ * Template Name: Terms
+ * 
  * @package ziqacgf-theme
  */
 
@@ -71,7 +69,7 @@ $copyright = sprintf(esc_html__('All rights reserved to website %1$s %2$s', 'ziq
 </head>
 
 <body <?php body_class('ziqacgf-body is-flex is-flex-direction-column'); ?>>
-    <header class="header" style="background: url(<?php echo get_theme_file_uri('assets/images/bg.svg')  ?>)">
+    <header class="header">
         <section class="navbar-section section">
             <div class="container">
                 <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -110,26 +108,36 @@ $copyright = sprintf(esc_html__('All rights reserved to website %1$s %2$s', 'ziq
         </section>
 
         <section class="hero">
-            <div class="container">
-                <div class="hero-body">
-                    <div class="section">
-                        <img src="<?php echo get_theme_file_uri('assets/images/aya2.bc77404d.png') ?>" alt="<?php _e('Fasting Aya', 'ziqacgf') ?>">
-                    </div>
-
-                    <div class="section">
-                        <h1 class="title has-text-white has-text-centered"><?php _e('Ramadan Competition', 'ziqacgf') ?></h1>
-                    </div>
-
+            <div class="container is-fluid">
+                <div class="hero-body is-flex">
                     <div class="section">
                         <div class="is-flex is-justify-content-center">
                             <img src="<?php echo get_theme_file_uri('assets/images/logo_ramadhan.svg') ?>" alt="<?php _e('Ramadan Logo', 'ziqacgf') ?>">
                         </div>
                     </div>
 
-                    <div class="is-flex is-justify-content-center">
-                        <a class="hero-terms-link" href=" <?php echo site_url('/terms') ?>" class="button is-rounded"><?php _e('Terms and Conditions', 'ziqacgf') ?></a>
+                    <div class="is-flex is-justify-content-center" style="width: 100%">
+                        <div class="section">
+                            <h1 class="title has-text-white has-text-centered"><?php _e('Terms And Conditions', 'ziqacgf') ?></h1>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </header>
+
+    <section class="section is-flex">
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <div class="content">
+                        <?php the_content() ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php
+    get_footer()
+    ?>

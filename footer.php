@@ -30,11 +30,11 @@
             </p>
         </div>
     </div>
+
+    <?php wp_footer() ?>
 </footer>
 
 <script src="https://kit.fontawesome.com/aaa6391f98.js" crossorigin="anonymous"></script>
-
-<?php wp_footer() ?>
 
 </body>
 

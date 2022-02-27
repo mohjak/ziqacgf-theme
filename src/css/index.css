@@ -29,6 +29,10 @@ a:hover {
   color: #DFF0CB;
 }
 
+.navbar-burger {
+  color: #FFFFFF;
+}
+
 .container {
   max-width: 960px;
 }
@@ -100,5 +104,11 @@ a:hover {
 @media screen and (min-width: 1408px) {
   .container:not(.is-max-desktop):not(.is-max-widescreen) {
     max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: transparent;
   }
 }

@@ -76,9 +76,9 @@ $the_query = new WP_Query($args);
         </div>
     </section>
 
-    <section>
-        <div class=" cotainer is-flex is-justify-content-center">
-            <h1 class="is-h1"><?php _e('Ramadan competition for the IslamQA website for the year 1443 AH', 'ziqacgf') ?></h1>
+    <section class="section">
+        <div class=" cotainer">
+            <h1 class="is-size-4 is-size-3-mobile has-text-centered"><?php _e('Ramadan competition for the IslamQA website for the year 1443 AH', 'ziqacgf') ?></h1>
         </div>
     </section>
 
